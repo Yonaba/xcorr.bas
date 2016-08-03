@@ -1,4 +1,4 @@
-__xcorr.bas__ is a small VBA module which adds up functions to MS Excel for [cross-correlation](https://en.wikipedia.org/wiki/Cross-correlation) computation.
+__xcorr.bas__ is a small VBA module which adds up functions to MS Excel for [cross-correlation](https://en.wikipedia.org/wiki/Cross-correlation) and [autocorrelation](https://en.wikipedia.org/wiki/Autocorrelation) computation.
 
 ##Installation##
 Inside the Excel file where you need to use `xcorr.bas`, open *VBA* using `Alt+F11` combination, then add the module using `File > Import a File` dialog.
