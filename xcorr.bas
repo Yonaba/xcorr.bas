@@ -35,6 +35,6 @@ Public Function CROSSCORRELATION(s1 As Range, s2 As Range, h As Integer) As Doub
 End Function
 
 'Calculates autocorrelation for a signal given time delay h
-Public Function AUTOCORRELATION(s1 As Range, h As Integer) As Double
-    AUTOCORRELATION = sgaps(s1, s1, h) / (ssq(s1) ^ 2)
+Public Function AUTOCORRELATION(s As Range, h As Integer) As Double
+    AUTOCORRELATION = sgaps(s, s, h) / (ssq(s1) ^ 2)
 End Function
