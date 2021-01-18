@@ -36,5 +36,5 @@ End Function
 
 'Calculates autocorrelation for a signal given time delay h
 Public Function AUTOCORRELATION(s As Range, h As Integer) As Double
-    AUTOCORRELATION = sgaps(s, s, h) / (ssq(s1) ^ 2)
+    AUTOCORRELATION = sgaps(s, s, h) / (ssq(s) ^ 2)
 End Function
